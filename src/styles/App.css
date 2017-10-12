@@ -1,0 +1,135 @@
+
+header {
+  background-color: #111;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: 					#B22222;
+}
+
+a.active {
+  color: #c6ff00;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  font-family: 'Exo', sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  font-family: 'Exo', sans-serif;
+}
+
+ul {
+  font-family: 'Exo', sans-serif;
+}
+
+
+.navHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.homeImg {
+  height: 175vh;
+  background-image: url("http://www.myfreephotoshop.com/wp-content/uploads/2014/10/215.jpg");
+  background-size: cover;
+}
+
+.siteTitle {
+  font-size: 55px;
+  color: #FFD700;
+  font-family: 'futura';
+}
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.contactUs {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.contactWrapper {
+  border: 3px solid;
+  color: #FFF;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: 	#DAA520;
+  opacity: 0.6;
+}
+
+.tag {
+  color: black;
+  text-decoration: underline;
+}
+
+.formSpacing {
+  margin: 10px;
+}
+
+.welcomeText {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.itemOne {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  height: 450px;
+}
+.itemTwo {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  height: 450px;
+}
+
+.itemThree {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  height: 450px;
+}
+
+.itemUl {
+  padding-right: 40px;
+  width: 300px;
+}
+.welcome {
+  font-family: "Univers" itaclic;
+}
+
+.aboutWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutUs {
+  margin-top: 100px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
